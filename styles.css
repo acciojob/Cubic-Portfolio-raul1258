@@ -45,10 +45,10 @@ body{
     top:100px;
     left:100px;
      /* transform: rotate(-90deg);  */
-     transform-style: preserve-3d;
+     /* transform-style: preserve-3d; */
     /* transform: rotateY(30deg);  */
     transform-style: preserve-3d;
-    animation :animate 6s infinite linear;
+    animation :animate 7s infinite linear;
     
 }
 @keyframes animate{
@@ -59,24 +59,6 @@ body{
         transform: rotateY(0deg);
     }
 }
-/* @keyframes animate{
-    0% {
-        transform: rotateX(45deg) rotateY(-45deg);
-    }
-    25% {
-        transform: rotateX(-45deg) rotateY(-45deg);
-    }
-    50% {
-        transform: rotateX(45deg) rotateY(45deg);
-    }
-    0% {
-        transform: rotateX(-45deg) rotateY(45deg);
-    }
-    0% {
-        transform: rotateX(-45deg) rotateY(45deg);
-    }
-
-} */
 .card{
     height:250px;
     width:250px;
@@ -124,6 +106,7 @@ input{
     top:-100px;
     left:180px;
 }
+/* for hit me button */
 input:focus~ #cube #front{
     transform: translateZ(180px) rotateY(360deg);
 }
